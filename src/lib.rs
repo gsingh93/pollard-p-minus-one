@@ -2,7 +2,7 @@ use std::result::Result;
 
 use ramp::Int;
 
-/// Returns a factor `p` of `n` if `p` is b-powersmooth
+/// Returns a factor `p` of `n` if `p - 1` is b-powersmooth
 /// ```
 /// use pollard_p_minus_one::factor;
 ///

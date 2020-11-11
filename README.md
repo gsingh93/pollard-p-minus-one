@@ -3,7 +3,7 @@ Pollard's p-1 Factoring Algorithm
 [![Documentation](https://docs.rs/pollard-p-minus-one/badge.svg)](https://docs.rs/pollard-p-minus-one)
 ---------------------------------
 
-A Rust implementation of Pollard's p-1 factoring algorithm. This algorithm can quickly factor an integer `n` if a factor `p` of `n` is `b-powersmooth`. This means that all prime powers of `p` are less than or equal to `b`.
+A Rust implementation of Pollard's p-1 factoring algorithm. This algorithm can quickly factor an integer `n` if `p` is a `factor` of `n` and `p - 1` is `b-powersmooth`. This means that all prime powers of `p` are less than or equal to `b`.
 
 ## Installation
 
